@@ -1,4 +1,4 @@
-```python
+#!/usr/bin/python
 # anomaly_detection.py
 from sklearn.ensemble import IsolationForest
 
@@ -13,4 +13,4 @@ def detect_anomalies(data):
     return [
         data[idx] for idx, pred in enumerate(predictions) if pred == -1
     ]
-```
+
