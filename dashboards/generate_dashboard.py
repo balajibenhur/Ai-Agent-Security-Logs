@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # generate_dashboard.py
 import matplotlib.pyplot as plt
 
@@ -8,4 +9,4 @@ def plot_findings_summary(findings):
     plt.xlabel('Severity')
     plt.ylabel('Frequency')
     plt.show()
-```
+
