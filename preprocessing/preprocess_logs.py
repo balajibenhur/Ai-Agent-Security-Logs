@@ -1,4 +1,4 @@
-```python
+#!/usr/bin/python
 # preprocess_logs.py
 import json
 
@@ -20,4 +20,4 @@ def preprocess_security_lake(logs):
     for log in logs:
         processed.extend(json.loads(log))  # Assuming logs are in JSON format
     return processed
-```
+
