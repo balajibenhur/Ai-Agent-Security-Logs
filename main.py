@@ -1,3 +1,4 @@
+#!/usr/bin/python_
 # main.py
 from data_ingestion.fetch_logs import fetch_guardduty_findings, fetch_security_lake_logs
 from preprocessing.preprocess_logs import preprocess_guardduty, preprocess_security_lake
@@ -22,4 +23,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
+
