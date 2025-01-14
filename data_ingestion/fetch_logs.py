@@ -1,4 +1,4 @@
-```python
+#!/usr/bin/python_
 # fetch_logs.py
 import boto3
 
@@ -33,4 +33,4 @@ if __name__ == "__main__":
     security_lake_data = fetch_security_lake_logs()
     print(f"GuardDuty Findings: {len(guardduty_data)}")
     print(f"Security Lake Logs: {len(security_lake_data)}")
-```
+
